@@ -80,7 +80,7 @@ nav {
 
 nav.stiky {
   position: fixed;
-  padding: 28px 0;
+  padding: 23px 0;
   background: -webkit-linear-gradient(to right, #348AC7, #7474BF); 
   background: linear-gradient(to right, #348AC7, #7474BF); 
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
@@ -470,13 +470,12 @@ nav .toggle span.button:nth-child(3) {
   box-sizing: border-box;
   color: #FFFFFF;
   display: flex;
-  font-family: Phantomsans, sans-serif;
-  font-size: 20px;
+
   justify-content: center;
   line-height: 1em;
   max-width: 100%;
   min-width: 140px;
-  padding: 19px 54px;
+  padding: 19px 10px;
   text-decoration: none;
   user-select: none;
   -webkit-user-select: none;
@@ -597,7 +596,7 @@ footer .social-media li:hover {
   /* *header */
   .container-heading {
     width: 90%;
-    grid-template-rows: 200px 600px;
+    grid-template-rows: 200px 1fr;
     /* margin-top: 100px; */
   }
 
@@ -670,11 +669,6 @@ footer .social-media li:hover {
   /* *contact us */
   .contact-us .container {
     width: 90%;
-  }
-
-  .contact-us .button-submit {
-    font-size: 24px;
-    min-width: 186px;
   }
 
   /* *end contact us */
