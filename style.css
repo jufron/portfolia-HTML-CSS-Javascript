@@ -79,6 +79,7 @@ nav {
 }
 
 nav.stiky {
+  z-index: 9999;
   position: fixed;
   padding: 23px 0;
   background: -webkit-linear-gradient(to right, #348AC7, #7474BF); 
